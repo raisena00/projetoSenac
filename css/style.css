@@ -1,0 +1,385 @@
+@import url(reserva-concluida.css);
+
+*{margin: 0; padding: 0;}
+
+body{
+    font-family: 'montserrat';
+    color: white;
+    background-color: #272830;
+    background-image: url(../imagens/fundo-neutro4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+.logo{
+    position: absolute;
+    top: 100px;
+    margin-left: 50px;
+    animation: surgir-esquerda 3s;
+}
+
+.menu{
+    height: 60px; 
+    width: 100%; 
+    background-image: linear-gradient(to left, #f72f2f, orange);
+    display: inline-block;
+    position: fixed;
+    top: 0px;
+}
+		.menu ul{
+            list-style: none;
+        }
+		.menu ul li a{
+            text-decoration: none; 
+            color: #fff; 
+            padding: 20.8px; 
+            float: left; 
+        }
+		.menu ul li a:hover{
+            background-color: #f77d7d; 
+            transition: 0.5s;
+        }
+
+.descricao{
+    color: white;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-top: -250px;
+    margin-left: 100px;
+
+}
+
+.fotos-inspiracao{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 180px;
+    animation: surgir 3s;  
+
+}
+
+    .fotos-inspiracao img{
+        width: 200px;
+        padding: 20px;
+        transition: all 1s;
+    }
+    .fotos-inspiracao img:hover{
+        width: 240px;
+        transition: all 1s;
+    }
+.slogan{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+.hr{
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.nossa-historia{
+    width: 30%;
+    font-size: 13px;
+    color: #e0b275;
+    margin-left: 36%;
+    margin-right: 34%;  
+    padding-bottom: 65px;
+
+}
+    .nossa-historia h2{
+        padding-bottom: 10px;
+        font-size: 20px;
+        margin-left: -28px;
+    } 
+#producao{
+    background-color: rgba(241, 56, 56, 0.7);
+    
+}
+    #producao h2{
+        padding-top: 60px;
+        text-align: center;
+    }
+
+.video-producao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.video-producao video {
+    padding: 10px 25px 2px 2px;
+}
+.forma-video{
+    width: 320px;
+    height: 180px;
+}
+.forma-video2{
+    width: 320px;
+    height: 192px;
+}
+
+.div-cardapio{
+    width: 99.8%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+
+#cardapio h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 10px 35px 10px;
+    
+}
+
+.cardapio{
+    width:420px;
+    height: 150px;
+    background-color: #5d5d61;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    transition: all 0.3s;
+    
+}
+
+.estilo-cardapio{
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 18px;
+    
+}
+
+    .cardapio:hover{
+        background-color: #8d8d92 ;
+        transition: all 0.3s;
+    }
+
+.locali{
+    width:100%;
+    height:450px;
+    border: 0px;
+    
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 10px 10px 10px ;
+    font-size: 13px;
+}
+
+.rodape-contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.rodape img{
+    padding-left: 8px;
+}
+.icone{
+    width: 30px;
+    margin-top: -30px;
+}
+
+#div-rodape{
+    height:180px ;
+}
+
+a:hover{
+    cursor:url(../cursores/comendo.png), default;
+}
+
+.voltar-ao-topo{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+  /*----- CONTATOS -----*/
+.body-contatos{
+    background-image: url(../imagens/fundo-form\ \(2\).jpg);
+    background-size: cover;
+}
+.logo-contatos{
+    width: 120px;
+    float: right;
+    margin-top: -25px;
+}
+
+.texto-form{
+    margin-top: 120px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    
+  }
+
+.preencha{
+    font-size: 17px;
+    font-weight: bold;
+}
+.contatos{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 35px;
+    padding-top: 15px;
+    letter-spacing: 1.5px;
+}
+
+.formulario{
+    background-color: rgba(22, 16, 12, 0.6);
+    width: 45%;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+    height: 525px;
+    border-radius: 10px;
+    border-color: #ff7300;
+    border-style: solid;
+    backdrop-filter: blur(4px);
+}
+
+/* div */
+.qntd{
+    /* border-color: #f72f2f;
+    border-style: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+
+}
+    .qntd input{
+        border: none;
+        height: 25px;
+        border-radius: 5px;
+    }
+
+.data_time{
+    /* border-color: #f72f2f;
+    border-style: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+.data_time input{
+    border: none;
+    height: 25px;
+    border-radius: 3px;
+    margin-right: 7px;
+    appearance: none;
+    
+}
+
+select{
+    appearance: none;
+    border:none;
+    height: 25px;
+    border-radius: 3px;
+}
+
+select option{
+    padding-left: 10px;
+}
+
+/* div */
+.nomeSobrenome{
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+    letter-spacing: 1px;
+}
+.nomeSobrenome input{
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type="submit"]{
+    width: 45%;
+    height: 35px;
+    margin-left: 30%;
+    color: #ffffff;
+    background-image: linear-gradient(to right, #f52c12, rgb(255, 115, 0));
+    border-radius: 100px;
+    cursor: pointer;
+    
+}
+
+    input:hover{
+        background-color: #e79c5e;
+    }
+    select:hover{
+        background-color: #e79c5e;
+    }
+
+    input::placeholder{
+        font-family: 'montserrat';
+        padding-left: 5px;
+        color:#a0a0a7;
+    }
+footer{
+    margin-top: 100px;
+
+}
+.montserrat {
+    font-family: "montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+.museomoderno- {
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 20;
+  font-style: normal;
+}
+.ysabeau-infant- {
+    font-family: "Ysabeau Infant", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+@keyframes surgir-esquerda{
+    0%{transform: translateX(-200px);}
+    100%{transform: translateX(0px);}
+}
+@keyframes surgir{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+ 
+

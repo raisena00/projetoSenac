@@ -1,0 +1,51 @@
+APRESENTAÇÃO
+
+Descubra o [Nome do Restaurante]: Uma Jornada Gastronômica Inesquecível
+Seja bem-vindo ao [Nome do Restaurante], um refúgio culinário onde sabores marcantes e experiências memoráveis se entrelaçam para criar momentos únicos.
+
+Nossa equipe apaixonada pela gastronomia se dedica a preparar pratos impecáveis, utilizando os ingredientes mais frescos e sazonais. Nosso cardápio, elaborado com criatividade e paixão, oferece uma variedade de opções para agradar todos os paladares.
+
+
+DESCRIÇÃO
+
+O KIKOSUSHI convida você a embarcar em uma jornada culinária inesquecível pela rica e saborosa tradição da culinária japonesa. Nosso restaurante acolhedor oferece um ambiente elegante e convidativo, onde você pode desfrutar de pratos 
+preparados com os ingredientes mais frescos e da mais alta qualidade.
+
+
+NOSSA HISTÓRIA
+
+Somos uma família tradicional japonesa, apaixonada por culinária, onde repassamos nosso amor e nossa dedicação através da comida. 
+
+Viemos do japão em 2011 para espalhar os nossos sabores por São Paulo. O Kikosushi é inspirado em nossos ancestrais, que por meio de apaixonantes temperos tradicionais do Japão, elaboraram pratos pensados com carinho para 
+alegrar o coração de nosso público.
+
+Queremos, através do Kikosushi, apresentar nossa cultura ao povo brasileiro, e ter em mente que a comida tem o poder de unir as pessoas, de criar pontes entre diferentes culturas e de transformar vidas.
+
+IDEIAS
+
+separar as imagens iniciais V
+colocar um cursor V
+trocar a fonte da descrição V
+dar inicio à pagina CONTATOS V
+trocar o hover do cardápio para um "brilho" V
+colocar voltar ao topo fixo V
+colocar um favicon V
+trocar o fundo da sessão "PRODUÇÃO" V
+colocar animação V
+Ver links da pagina de contatos V
+div está grande do data_time V
+dar destaque ao texto "preencha o formulário" V
+
+ver o fundo do rodapé 
+mudar icone das redes sociais V
+organizar css
+ver centralização com o sor
+adicionar js V
+ajustar margin dos h2 para nao tampar o menu V
+
+IMPORTAR CSS e separá-los por página
+ajeitar pagina reserva concluida
+ver se o footer com class, somente na página contatos, funciona
+verificar fonte do menu na página de reserva concluida
+
+
